@@ -82,16 +82,17 @@ if Tl == "1":
     result = Tack_Lorix.join([str(random.choice(tacklorix)) for _ in range(9)])
 
     print(f"{green} ")
-    d = (f"""         \033[32m{lorix}\033[32m{result}
-    
-    
-    """)
+    d = (f"""         \033[32m{lorix}\033[32m{result}""")
     time.sleep(0.09)
+
     for d in d:
         sys.stdout.write(d)
         sys.stdout.flush()
         time.sleep(0.10)
-
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
 elif Tl == "2":
        tack= (f"!","!")
 
@@ -106,15 +107,16 @@ elif Tl == "2":
 
        
        print(f"{green} ")
-       d = (f"""              \033[32m{lorix}\033[32m{result}
-       
-       
-       """)
+       d = (f"""              \033[32m{lorix}\033[32m{result}""")
        time.sleep(0.09)
        for d in d:
         sys.stdout.write(d)
         sys.stdout.flush()
         time.sleep(0.10)
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
 elif Tl == "3":
       tack= (f"!","!")
 
@@ -127,15 +129,16 @@ elif Tl == "3":
       result = Tack_Lorix.join([str(random.choice(tacklorix)) for _ in range(2)])
 
       print(f"{green} ")
-      d = (f"""                 \033[32m{lorix}\033[32m{result}
-      
-      
-      """)
+      d = (f"""                 \033[32m{lorix}\033[32m{result}""")
       time.sleep(0.09) 
       for d in d:
         sys.stdout.write(d)
         sys.stdout.flush()
         time.sleep(0.10)
+    print(" ")
+    print(" ")
+    print(" ")
+    print(" ")
 else:
     
      print(f"{green} ")
