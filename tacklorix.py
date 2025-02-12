@@ -113,10 +113,10 @@ elif Tl == "2":
         sys.stdout.write(d)
         sys.stdout.flush()
         time.sleep(0.10)
-    print(" ")
-    print(" ")
-    print(" ")
-    print(" ")
+       print(" ")
+       print(" ")
+       print(" ")
+       print(" ")
 elif Tl == "3":
       tack= (f"!","!")
 
@@ -135,10 +135,10 @@ elif Tl == "3":
         sys.stdout.write(d)
         sys.stdout.flush()
         time.sleep(0.10)
-    print(" ")
-    print(" ")
-    print(" ")
-    print(" ")
+      print(" ")
+      print(" ")
+      print(" ")
+      print(" ")
 else:
     
      print(f"{green} ")
